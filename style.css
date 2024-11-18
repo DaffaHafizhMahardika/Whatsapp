@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.575);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    padding: 1% 2.8%;
+    z-index: 100;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 1.2rem;
+    color: black;
+    cursor: pointer;
+}
+
+button.nav-btn {
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 1.1% 3.4%;
+    font-size: 17px;
+    background: rgb(1, 252, 1);
+    cursor: pointer;
+}
+
+.home1 {
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+.home1 img.home-bg {
+    margin: 7% 0;
+    height: 100%;
+    width: 96%;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -1;
+}
+
+.home1-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.home1-write {
+    max-width: 300px;
+    margin-left: 13rem;
+}
+
+.home1-write h1 {
+    color: white;
+    font-size: 75px;
+    font-weight: 500;
+}
+
+.home1-write p {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.home1-write button {
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 5.5% 12%;
+    font-size: 17px;
+    background: rgb(1, 252, 1);
+    cursor: pointer;
+
+}
+
+.home1-img {
+    width: 100%;
+    margin-left: 15rem;
+}    
+
+.home1-img img {
+    width: 70%;
+}
+
+.home2 h1 {
+    font-size: 43px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 15rem;
+}
+
+.home3 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home3-content {
+    max-width: 450px;
+}
+
+.home3-content h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.home3-content p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.home4 {
+    height: 120vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background: rgb(17, 17, 17);
+}
+
+.home4-content {
+    max-width: 450px;
+}
+
+.home4-content h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.home4-content p {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.home5 {
+    height: 120vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13%;
+}
+
+.home5-content {
+    max-width: 450px;
+}
+
+.home5-content h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.home5-content p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.home6 {
+    height: 120vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.home6-content {
+    max-width: 450px;
+}
+
+.home6-content h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+.home6-content p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.home7 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14%;
+}
+
+.home7-content {
+    max-width: 450px;
+}
+
+.home7-content h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.home7-content p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer {
+    background: rgb(17, 17, 17);
+    height: 80vh;
+    padding: 8% 12%;
+}
+
+.footer1-content {
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.267);
+}
+
+.footer1-content ul li {
+    list-style: none;
+}
+
+.footer1-content ul li img {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 3rem;
+}
+
+.footer1-content ul li button {
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 10% 27%;
+    font-size: 17px;
+    background: rgb(1, 252, 1);
+    cursor: pointer;
+}
+
+.footer1-content ul li p {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.footer1-content ul li h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.footer2-content {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer2-content p {
+    font-size: 12px;
+    width: 10%;
+    margin: 2rem 1.6rem;
+}
